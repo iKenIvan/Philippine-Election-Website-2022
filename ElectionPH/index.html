@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Election Philippines </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><span>Election</span>PH</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#posts">Candidates</a>
+            <a href="#contact">contact us</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vXoWsDSyqX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="content">
+            <h3>READY FOR THE ELECTION!</h3>
+            
+            <!--Jquery Here-->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <div id="popup-container">
+                <div id="close-btn-container">
+                    <span id="close-btn">X</span>
+                </div>
+                <h3>Monday | May 9, 2022</h3>
+            </div>
+
+            <script type="text/javascript">
+                $(document).ready (function(){
+                //Show Answer
+                    $("#show-popup-btn").click(function(){
+                        $("#popup-container").show();
+                    })
+                //Close Answer
+                    $("#close-btn").click(function(){
+                        $("#popup-container").hide();
+                    })
+                })
+            </script>
+            
+            <a href="#" id="show-popup-btn" class="btn">When is the Election?</a>
+            <a href="#posts" class="btn">FIND YOUR CANDIDATE!</a>
+        </div>
+
+    </section>
+
+    <section class="container" id="posts">
+
+        <div class="posts-container">
+
+            <div class="post">
+                <img src="images/blog-1.jpg" id="blog1" class="image">
+
+                <h3 class="title">ABELLA, ERNIE</h3>
+                <p class="text">Ernie Abella, Age 72, is a businessman, author, and pastor who has long supported President Rodrigo Duterte. He also acted as the president's spokesman for a short time.</p>
+                <p class="text">He is running as an independent candidate, with the goal of increasing the engagement of regular individuals and small business owners in governance, as well as improving access to food and healthcare for children and the elderly.</p>
+            
+                <a href="https://votepilipinas.com/candidate/pdf/abella_full.pdf" class="btn">Know More!</a>
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-2.jpg" id="blog2" class="image">
+
+                <h3 class="title">DE GUZMAN, LEODY</h3>
+                <p class="text">Leody de Guzman, 61, is a labor activist who has advocated for laws to protect workers' rights and welfare since 1984. He stood for senator in 2019 under the slogan "Manggagawa Naman," however he was unsuccessful. He is presently the head of the Bukluran ng Manggagawang Pilipino, a socialist labor center and militant trade union federation.</p>
+                <p class="text">He is running under the opposition alliance Laban ng Masa on a progressive and worker-centric platform based on a thorough overhaul of the country's political system to stimulate social development and, eventually, economic growth.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/deguzman_full.pdf" class="btn">Know More!</a>
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-3.jpg" id="blog3" class="image">
+
+                <h3 class="title">DOMAGOSO, ISKO MORENO</h3>
+                <p class="text">Francisco "Isko Moreno" Domagoso is the current mayor of Manila. After serving as deputy mayor of the capital city from 2007 to 2016, he campaigned for senator but was unsuccessful. President Rodrigo Duterte then named him as chairman of the board of the North Luzon Railways Corporation, and then as undersecretary at the Department of Social Welfare and Development.</p>
+                <p class="text">Similar to Duterte in 2016, Moreno is campaigning on a platform of "duplicating" his local projects on a national level. These projects include socialized housing, modernized public school education and continuing the administration's anti-drug campaign.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/domagoso_full.pdf" class="btn">Know More!</a>    
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-4.jpeg" id="blog4" class="image">
+
+                <h3 class="title">GONZALES, NORBERTO</h3>
+                <p class="text">Norberto B. Gonzales, 74, is a self-described democratic-socialist whose long career includes activism and union organization, peace talks negotiations, and positions as national security adviser, defense secretary, and presidential chief of staff under Gloria Macapagal-Arroyo. He is the chairman of the Philippine Democratic Socialist Party, which has its roots in the 1970s protest movement and has engaged in mass demonstrations against the Marcos dictatorship, peace talks with the Moro National Liberation Front, and the overthrow of President Joseph Ejercito Estrada.</p>
+                <p class="text">As a surprise candidate for the 2022 presidential election, Gonzales frames many of the issues faced by the country as matters of national security, including food security and the COVID-19 pandemic. He vows to prioritize reform of the agricultural sector to boost food production and increase farmers’ income.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/gonzales_full.pdf" class="btn">Know More!</a>    
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-5.jpeg" id="blog5" class="image">
+
+                <h3 class="title">LACSON, PING</h3>
+                <p class="text">Ping Lacson, 73, has spent more than 40 years in the legislative and executive branches of government. He is now serving his third Senate term.
+                                Lacson is the author of several contentious bills, including the Anti-Terrorism Act of 2020, the Philippine Identification System Act of 2018, and the Reproductive Health Act of 2011. He has long been a budget inspector, urging the removal of pork barrel and other dubious insertions during plenary Senate deliberations.</p>
+                <p class="text">If elected, Lacson vows to restore public trust in government by improving the country's pandemic response, purging the bureaucracy of corrupt officials, and allowing local governments more autonomy.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/lacson_full.pdf" class="btn">Know More!</a>    
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-6.jpg" id="blog6" class="image">
+
+                <h3 class="title">MANGONDATO, FAISAL</h3>
+                <p class="text">Faisal Mangondato is a businessman who is running as the standard-bearer of the Katipunan ng Kamalayang Kayumanggi party. He was born in Ramain Ditsaan, Lanao del Sur, and currently resides in Marawi City.</p>
+                <p class="text">He launched a failed bid for regional governor of Autonomous Region in Muslim Mindanao as an independent in 2016. Three years later, in 2019, he sought a Senate seat in 2019 but did not garner enough votes to win.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/mangondato_full.pdf" class="btn">Know More!</a>    
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-7.webp" id="blog7" class="image">
+
+                <h3 class="title">MARCOS, BONGBONG</h3>
+                <p class="text">Ferdinand “Bongbong” Marcos Jr., 64, son and namesake of the late ousted dictator, was elected unopposed into vice gubernatorial seats in Ilocos Norte at the height of his fathers regime in 1980, and eventually into congressional seats representing the same province after his familys return to the Philippines in 1991. He also served as a senator from 2010 to 2016 before losing a bid for higher office to Vice President Leni Robredo in the 2016 elections.</p>
+                <p class="text">Marcos is campaigning on improving the country's pandemic response and continuing the Duterte administration's anti-insurgency campaign as well as its bloody campaign against illegal drugs but with a focus on prevention, education, and rehabilitation.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/marcos_full.pdf" class="btn">Know More!</a>    
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-8.jpg" id="blog8" class="image">
+
+                <h3 class="title">MONTEMAYOR, JOSE JR.</h3>
+                <p class="text">Jose Montemayor Jr. works primarily as a cardiologist at major hospitals. He claims to bring a medical, legal and economics background to the presidential race and his first campaign for public office.</p>
+                <p class="text">He is campaigning on a 10-point agenda to address COVID-19, eliminate corruption, improve the campaign against illegal drugs, achieve full employment, alleviate poverty and attain economic prosperity. His agenda also includes a holistic approach to the West Philippine Sea, the welfare of migrant Filipinos, press freedom, education, negotiations with rebel groups and advancements in agriculture and infrastructure.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/montemayor_full.pdf" class="btn">Know More!</a>    
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-9.jpg" id="blog9" class="image">
+
+                <h3 class="title">PACQUIAO, MANNY</h3>
+                <p class="text">Manny Pacquiao is a Philippine legislator who has served in both chambers of Congress since 2010. He first gained acclaim as a world-class champion boxer and juggled his careers as a public official and athlete until 2021 when he announced his retirement from the sport. The boxer-turned-legislator is also a preacher and founded the church Word for Everyone Ministries International, Inc. in 2012.</p>
+                <p class="text">Pacquiao is campaigning on ridding the country of corruption, criminality, and poverty, though he has not published any concrete policy proposals as of this writing.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/pacquiao_full.pdf" class="btn">Know More!</a>    
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/blog-10.jpg" id="blog10" class="image">
+
+                <h3 class="title">ROBREDO, LENI</h3>
+                <p class="text">Leni Robredo, 56, is currently serving as the 14th vice president of the Philippines. Her office has garnered the highest audit rating from the Commission on Audit for three consecutive years (2018-2020) and has been recognized by Malacañang for its pandemic response programs across the country.</p>
+                <p class="text">In her lone term in the House of Representatives, Robredo principally authored three bills that were signed into law, including the Tax Incentives Management and Transparency Act.
+                    If elected, Robredo says she will spend her first 100 days in office strengthening the country’s response to the coronavirus pandemic.</p>
+
+                <a href="https://votepilipinas.com/candidate/pdf/robredo_full.pdf" class="btn">Know More!</a>    
+
+                <div class="links">
+                    <a href="#" class="user">
+                        <i class="far fa-user"></i>
+                        <span>by: COMELEC & Vote Pilipinas </span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-comment"></i>
+                        <span>(0)</span>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="far fa-share-square"></i>
+                        <span>(0)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="box">
+                <center><h3 class="title">Top Categories</h3></center>
+            </div>
+            <div class="box">
+                <center><h3 class="title">Presidential Candidates</h3></center>
+                <div class="category">
+                    <a href="#blog1"> Abella, Ernie <span>1</span></a>
+                    <a href="#blog2"> De Guzman, Leody <span>2</span></a>
+                    <a href="#blog3"> Domagoso, Isko Moreno <span>3</span></a>
+                    <a href="#blog4"> Gonzales, Norberto <span>4</span></a>
+                    <a href="#blog5"> Lacson, Ping <span>5</span></a>
+                    <a href="#blog6"> Mangondato, Faisal <span>6</span></a>
+                    <a href="#blog7"> Marcos, Bongbong <span>7</span></a>
+                    <a href="#blog8"> Montemayor, Jose Jr. <span>8</span></a>
+                    <a href="#blog9"> Pacquiao, Manny <span>9</span></a>
+                    <a href="#blog10"> Robredo, Leni <span>10</span></a>
+                </div>
+            </div>
+            <div class="box">
+                <center><h3 class="title">Vice Presidential Candidates</h3></center>
+                <div class="category">
+                    <a href="https://votepilipinas.com/candidate/atienza-lito.html"> Atienza, Lito <span>1</span></a>
+                    <a href="https://votepilipinas.com/candidate/walden-bello.html"> Bello, Walden <span>2</span></a>
+                    <a href="https://votepilipinas.com/candidate/david-rizalito.html"> David, Rizalito <span>3</span></a>
+                    <a href="https://votepilipinas.com/candidate/duterte-sara.html"> Duterte, Sara <span>4</span></a>
+                    <a href="https://votepilipinas.com/candidate/lopez-manny.html"> Lopez, Manny SD <span>5</span></a>
+                    <a href="https://votepilipinas.com/candidate/ong-willie.html"> Ong, Doc Willie <span>6</span></a>
+                    <a href="https://votepilipinas.com/candidate/pangilinan-francis.html"> Pangilinan, Kiko <span>7</span></a>
+                    <a href="https://votepilipinas.com/candidate/serapio-carlos.html"> Serapio, Carlos <span>8</span></a>
+                    <a href="https://votepilipinas.com/candidate/sotto-tito.html"> Sotto, Vicente Tito <span>9</span></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <form action="">
+            <h3>contact us</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Contact Number">
+                <input type="text" placeholder="Title">
+            </div>
+            <textarea name="" placeholder="Message..." id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send" class="btn">
+        </form>
+
+    </section>
+    <section class="footer">
+        <div class="follow">
+            <a href="https://www.facebook.com/iKenIvan/" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/GITCHEstudio" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/ikenivan/" class="fab fa-instagram"></a>
+        </div>
+        <div class="credit">  THIS WEBSITE IS FOR EDUCATIONAL PURPOSES ONLY </div>
+        <div class="credit">  Made by: <span><a href='https://www.facebook.com/iKenIvan/'>Ken Ivan</a></span> | April 13, 2022</div>
+    </section>
+</body>
+
+</html>
